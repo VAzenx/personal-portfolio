@@ -65,7 +65,7 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-4 md:px-6 flex items-center justify-between gap-5">
         <a href="/#home" className="text-portfolio-navy dark:text-white font-mono text-xl font-semibold hover:text-portfolio-accent dark:hover:text-portfolio-darkAccent transition-colors">
-          Portfolio<span className="text-portfolio-accent dark:text-portfolio-darkAccent">.</span>
+          Wutthipong<span className="text-portfolio-accent dark:text-portfolio-darkAccent">.</span>
         </a>
 
         <div className="flex items-center gap-4">
