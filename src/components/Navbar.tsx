@@ -59,7 +59,7 @@ const Navbar = () => {
 
   return (
     <header 
-      className={`fixed top-6 left-1/2 -translate-x-1/2 z-50 w-[95%] md:w-auto rounded-full transition-all duration-300 ${
+      className={`fixed top-6 left-1/2 -translate-x-1/2 z-50 w-[95%] md:w-auto rounded-full transition-all duration-300 border-2 border-slate-800 dark:border-blue-500 ${
         scrolled ? 'bg-white/80 dark:bg-gray-900/50 backdrop-blur-md shadow-sm py-4' : 'bg-transparent py-4'
       }`}
     >

@@ -12,7 +12,7 @@ import { ThemeProvider } from '@/components/ThemeProvider';
 
 const Index = () => {
   useEffect(() => {
-    document.title = 'John Doe | Portfolio';
+    document.title = 'Wutthipong | Personal Portfolio';
   }, []);
 
   return (

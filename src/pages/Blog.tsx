@@ -8,7 +8,7 @@ import CustomCursor from '@/components/CustomCursor';
 
 const Blog = () => {
     useEffect(() => {
-    document.title = 'John Doe | Blog';
+    document.title = 'Wutthipong | Blog';
     }, []);
 
     const featuredPosts = [
