@@ -44,13 +44,13 @@ const BlogSection = ({ title, posts, variant = 'grid' }: BlogSectionProps) => {
         <Carousel className="w-full">
             <CarouselContent>
             {posts.map((post) => (
-                <CarouselItem key={post.id} className="md:basis-1/2 lg:basis-1/2">
+                <CarouselItem key={post.id} className="md:basis-1/2 lg:basis-1/2 noto-sans-thai">
                 <Card className="h-full overflow-hidden border-2 border-transparent hover:border-portfolio-accent dark:hover:border-portfolio-darkAccent transition-all duration-300">
                     <div className="h-48 bg-portfolio-lightBlue dark:bg-portfolio-navy overflow-hidden">
                     <img
                         src={post.imageUrl}
                         alt={post.title}
-                        className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+                        className="w-full h-full object-cover transition-transform duration-500 "
                     />
                     </div>
                     <CardHeader>
@@ -142,7 +142,7 @@ if (variant === 'grid') {
 // List variant
 return (
     <section className="mb-16">
-      <h2 className="text-3xl font-bold mb-8">{title}</h2>
+      <h2 className="text-3xl font-bold mb-8 ">{title}</h2>
       <div className="space-y-6">
         {posts.map((post) => (
           <Card key={post.id} className="overflow-hidden hover:shadow-md dark:hover:shadow-blue-900/20 transition-all duration-300">

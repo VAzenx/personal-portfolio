@@ -93,6 +93,7 @@ const About = () => {
               </div>
             </div>
           </div>
+              
 
           {/* Exper Timeline */}
           {/* <div className="max-w-5xl mx-auto px-4">
