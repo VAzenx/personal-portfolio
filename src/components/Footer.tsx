@@ -49,8 +49,8 @@ const Footer = () => {
           </div>
           
           {/* Copyright Text */}
-          <div className="text-portfolio-slate text-sm font-mono">
-            <p>Designed & Built with ❤️</p>
+          <div className="flex text-portfolio-slate text-sm font-mono">
+            <p>Designed & Built with ❤️ Wutthipong Wongwai</p>
             <p>&copy; {year} All Rights Reserved</p>
           </div>
         </div>

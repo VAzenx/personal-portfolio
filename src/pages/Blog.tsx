@@ -17,7 +17,7 @@ const Blog = () => {
         title: 'ความรู้สึกเมื่อรู้ว่าผมติดพระจอมเกล้าพระนครเหนือ คณะไอที',
         excerpt: 'ความรู้สึกเมื่อรู้ว่าผมติดพระจอมเกล้าพระนครเหนือ คณะไอที...',
         date: '2024-12-21',
-        category: 'Development',
+        category: 'Moment',
         imageUrl: 'https://fitm-5ee32.firebaseapp.com/FITM_curriculum/images/slider/nemo.jpg',
         slug: 'Kmutnb-IT'
     },
@@ -30,7 +30,7 @@ const recentPosts = [
     title: 'ความรู้สึกเมื่อรู้ว่าผมติดพระจอมเกล้าพระนครเหนือ คณะไอที',
     excerpt: 'ความรู้สึกเมื่อรู้ว่าผมติดพระจอมเกล้าพระนครเหนือ คณะไอที...',
     date: '2024-12-21',
-    category: 'Development',
+    category: 'Moment',
     imageUrl: 'https://fitm-5ee32.firebaseapp.com/FITM_curriculum/images/slider/nemo.jpg',
     slug: 'Kmutnb-IT'
   },

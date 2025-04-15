@@ -59,7 +59,7 @@ const Navbar = () => {
 
   return (
     <header 
-      className={`fixed top-6 left-1/2 -translate-x-1/2 z-50 w-[95%] md:w-auto rounded-full transition-all duration-300 border-2 border-slate-800 dark:border-blue-500 ${
+      className={`fixed top-6 left-1/2 -translate-x-1/2 z-50 w-[95%] md:w-auto rounded-full transition-all duration-300 border-2 border-slate-200 dark:border-blue-500 ${
         scrolled ? 'bg-white/20 dark:bg-black/20 backdrop-blur-md shadow-sm py-4' : 'bg-transparent py-4'
       }`}
     >
@@ -98,14 +98,14 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden absolute top-full left-0 w-full bg-white/95 dark:bg-gray-900/95 backdrop-blur-md shadow-lg py-5 px-4 mt-5 rounded-xl animate-fade-in">
+        <div className="md:hidden border-2 border-slate-200 dark:border-blue-500 absolute top-full left-0 w-full bg-white/95 dark:bg-gray-900/95 backdrop-blur-md shadow-lg py-5 px-4 mt-5 rounded-xl animate-fade-in">
           <nav className="flex flex-col gap-4">
             {NAV_ITEMS.map((item, index) => (
               <a 
                 key={index}
                 href={item.href}
                 onClick={() => setIsOpen(false)}
-                className={`text-lg border-b border-white pb-1 font-medium ${
+                className={`text-lg border-b dark:border-white pb-1 font-medium ${
                   isActive(item.href) 
                     ? 'text-portfolio-accent dark:text-portfolio-darkAccent' 
                     : 'text-portfolio-navy dark:text-gray-300'

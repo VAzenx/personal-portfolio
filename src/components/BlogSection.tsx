@@ -97,7 +97,7 @@ if (variant === 'grid') {
         <h2 className="text-3xl font-bold mb-8">{title}</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {posts.map((post) => (
-            <Card key={post.id} className="overflow-hidden border border-border hover:shadow-md dark:hover:shadow-blue-900/20 transition-all duration-300 h-full">
+            <Card key={post.id} className="overflow-hidden noto-sans-thai border border-border hover:shadow-md dark:hover:shadow-blue-900/20 transition-all duration-300 h-full">
               <div className="h-40 bg-portfolio-lightBlue dark:bg-portfolio-navy overflow-hidden">
                 <img
                   src={post.imageUrl}
@@ -145,7 +145,7 @@ return (
       <h2 className="text-3xl font-bold mb-8 ">{title}</h2>
       <div className="space-y-6">
         {posts.map((post) => (
-          <Card key={post.id} className="overflow-hidden hover:shadow-md dark:hover:shadow-blue-900/20 transition-all duration-300">
+          <Card key={post.id} className="noto-sans-thai overflow-hidden hover:shadow-md dark:hover:shadow-blue-900/20 transition-all duration-300">
             <div className="flex flex-col md:flex-row">
               <div className="md:w-1/4 h-40 md:h-auto bg-portfolio-lightBlue dark:bg-portfolio-navy overflow-hidden">
                 <img
