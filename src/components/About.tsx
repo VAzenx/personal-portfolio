@@ -86,7 +86,7 @@ const About = () => {
               <div className="w-64 h-64 md:w-80 md:h-80 border-2 border-portfolio-accent rounded-md relative overflow-hidden group">
                 <div className="absolute inset-0 bg-portfolio-accent/30 group-hover:opacity-0 transition-opacity duration-300"></div>
                 <img 
-                  src="https://scontent.futp1-1.fna.fbcdn.net/v/t39.30808-6/486064395_1844421902985868_9190342069794530121_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=vSl4C44oztkQ7kNvwFTP32e&_nc_oc=AdnYtc-78IuyEO9BCRhpavPsI4K_g9662cnOdFZvtpvNxfJDc3V9ZDG93j4VT4Z3H-1OtT4duPq16Zqdwsz9O7KP&_nc_zt=23&_nc_ht=scontent.futp1-1.fna&_nc_gid=HA8WFMIIslhtMUUJabgGhA&oh=00_AfHScyoOxBUB_3GjIqajE4xwtUHpthJLmRj3xo_ZSvQt6g&oe=68043C4C" 
+                  src="https://imgur.com/a/QVyFVR6" 
                   alt="Profile" 
                   className="w-full h-full object-cover"
                 />
